@@ -28,7 +28,7 @@ function calcularTempo() {
     const segundos = Math.floor(diferencaMilissegundos / 1000) % 60;
 
     // Retorna uma string formatada com a duração do relacionamento
-    return `${anos} anos, ${meses} meses, ${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos`;
+    return `${anos} ano, ${meses} meses, ${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos`;
 }
 
 // Intervalo para atualizar o contador de tempo a cada segundo
